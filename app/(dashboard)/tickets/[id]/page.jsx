@@ -1,9 +1,8 @@
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
 import { cookies } from 'next/headers'
 import { notFound } from 'next/navigation'
+import DeleteIcon from '../../../../components/DeleteIcon'
 
-// components
-import DeleteIcon from '../../../components/DeleteIcon'
 
 export const dynamicParams = true
 

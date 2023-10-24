@@ -1,9 +1,8 @@
 "use client"
-import AuthForm from "@/app/components/AuthForm"
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs"
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
-
+import AuthForm from "../../../components/AuthForm"
 
 
 export default function Signup() {

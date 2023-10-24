@@ -1,4 +1,4 @@
-import CreateForm from '../../../components/CreateForm'
+import CreateForm from '../../../../components/CreateForm'
 
 export default async function CreateTicket() {
   return (

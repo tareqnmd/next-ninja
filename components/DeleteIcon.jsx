@@ -1,6 +1,6 @@
 "use client"
 import { useTransition } from 'react'
-import { deleteTicket } from '../(dashboard)/tickets/actions'
+import { deleteTicket } from '../app/(dashboard)/tickets/actions'
 
 // icons & UI
 import { TiDelete } from 'react-icons/ti'

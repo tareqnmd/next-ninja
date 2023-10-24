@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from '../../assets/dojo-logo.png'
+import Logo from '../assets/dojo-logo.png'
 import LogoutButton from './LogoutButton'
 
 export default function Navbar({ user }) {

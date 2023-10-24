@@ -1,10 +1,9 @@
 "use client"
-import { useState } from 'react'
-import { useRouter } from 'next/navigation'
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs"
+import { useRouter } from 'next/navigation'
+import { useState } from 'react'
+import AuthForm from "../../../components/AuthForm"
 
-// components
-import AuthForm from "../../components/AuthForm"
 
 export default function Login() {
   const router = useRouter()
@@ -25,10 +24,10 @@ export default function Login() {
     }
     if (!error) {
       router.push('/')
-    } 
+    }
 
   }
-[]
+  []
   return (
     <main>
       <h2 className="text-center">Login</h2>
